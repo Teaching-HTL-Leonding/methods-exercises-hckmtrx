@@ -248,7 +248,7 @@ void RunHighestInGeometricSequence()
     Console.Write("Enter maximum: ");
     double max = double.Parse(Console.ReadLine()!);
 
-    Console.WriteLine(HighestInGeometricSequence(a, r, max));
+    Console.WriteLine($"Highest element in geometric sequence: {HighestInGeometricSequence(a, r, max)}");
 }
 
 double HighestInGeometricSequence(double a, double r, double max)
